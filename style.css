@@ -90,6 +90,7 @@ span.delivery-input-address {
 }
 
 .card {
+    width: 100%;
     display: flex;
     list-style: none;
     overflow-x: scroll;
@@ -137,6 +138,7 @@ span.delivery-input-address {
     text-decoration: none;
     border: none;
     background: none;
+    cursor: pointer;
 }
 
 .tab-bar-item-title {
@@ -166,4 +168,27 @@ span.delivery-input-address {
   'wght' 400,
   'GRAD' 0,
   'opsz' 24
+}
+
+/* SWIPER SLIDE */
+
+.swiper-slide {
+    display: flex;
+    list-style: none;
+    overflow-x: scroll;
+    padding: 8px 10x 0;
+    border-bottom: 1px solid #f7f7f7;
+    gap: 15px;
+    padding: 10px 0 0 15px;
+}
+
+.big-banner {
+    display: flex;
+    gap: 15px;
+}
+
+.big-banner img {
+    max-height: 180px;
+    min-height: 90px;
+    min-width: 240px;
 }
