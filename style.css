@@ -110,3 +110,60 @@ span.delivery-input-address {
     color: #717171;
 }
 
+/* TAB BAR */
+
+.tab-bar {
+    align-items: center;
+    max-width: 100%;
+    position: fixed;
+    display: flex;
+    bottom: 0;
+    max-height: 70px;
+    padding: 10px;
+    justify-content: space-around;
+    background-color: #fff;
+    box-shadow: 0 1px 3px rgba(0,0,0,.24);
+    z-index: 10000;
+}
+
+.tab-bar-item {
+    text-align: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    padding: 8px 0;
+    flex-direction: column;
+    color: #3f3e3e;
+    text-decoration: none;
+    border: none;
+    background: none;
+}
+
+.tab-bar-item-title {
+    color: #3e3e3e;
+    font-weight: 300;
+    font-size: .75rem;
+    line-height: .875rem;
+}
+
+@media (max-width: 960px) {
+    .tab-bar-item {
+        width: 240px;
+    }
+
+}
+
+@media (min-width: 960px) {
+    .tab-bar-item {
+        display: none;
+    }
+
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
